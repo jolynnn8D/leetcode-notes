@@ -3,7 +3,7 @@
 | Problem                                                                                                                                   | Code                              | Tags                                 |
 |-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|--------------------------------------|
 | [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | [Python3](./ancestors_dag.py)     | Topological Sort, Kahn's Algorithm         |
-
+| [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python3](./course_schedule.py)     | Topological Sort, Kahn's Algorithm         |
 ## Algorithms
 
 ### Kahn's Algorithm (Topological Sort)
