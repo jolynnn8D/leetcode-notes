@@ -4,6 +4,7 @@
 |-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|--------------------------------------|
 | [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | [Python3](./ancestors_dag.py)     | Topological Sort, Kahn's Algorithm         |
 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python3](./course_schedule.py)     | Topological Sort, Kahn's Algorithm         |
+| [Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/) | [Python3](./reachable_cities.py)     | Dijkstra's Algorithm, Floyd-Warshall Algorithm         |
 ## Algorithms
 
 ### Kahn's Algorithm (Topological Sort)

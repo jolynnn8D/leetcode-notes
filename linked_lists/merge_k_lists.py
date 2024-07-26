@@ -62,13 +62,14 @@ class HeapSolution:
             curr.next = ListNode(val)
             curr = curr.next
         return res.next
-    
-tc1 = [[1,4,5],[1,3,4],[2,6]]
 
-tc1_input = [list_to_ll(l) for l in tc1]
-tc1_output = Solution().merge_k_lists(tc1_input)
-print(tc1_output)
+if __name__ == "__main__":
+    tc1 = [[1,4,5],[1,3,4],[2,6]]
 
-tc1_input = [list_to_ll(l) for l in tc1]
-tc1_output = HeapSolution().merge_k_lists(tc1_input)
-print(tc1_output)
+    tc1_input = [list_to_ll(l) for l in tc1]
+    tc1_output = Solution().merge_k_lists(tc1_input)
+    print(tc1_output)
+
+    tc1_input = [list_to_ll(l) for l in tc1]
+    tc1_output = HeapSolution().merge_k_lists(tc1_input)
+    print(tc1_output)

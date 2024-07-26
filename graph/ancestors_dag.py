@@ -47,7 +47,8 @@ class TopologicalSortSolution:
         
         return [sorted(s) for s in result]
 
-n = 8
-test = [[0,3],[0,4],[1,3],[2,4],[2,7],[3,5],[3,6],[3,7],[4,6]]
-print(DFSSolution().get_ancestors(n, test))
-print(TopologicalSortSolution().get_ancestors(n, test))
+if __name__ == "__main__":
+    n = 8
+    test = [[0,3],[0,4],[1,3],[2,4],[2,7],[3,5],[3,6],[3,7],[4,6]]
+    print(DFSSolution().get_ancestors(n, test))
+    print(TopologicalSortSolution().get_ancestors(n, test))
